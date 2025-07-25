@@ -366,3 +366,79 @@
     align-items: center;
     margin-top: -200px;
 }
+
+
+
+
+/* Let's start responsive for mobile device */
+@media screen and (max-width: 576px) {
+  .Navbar-section {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    width: 100%;
+  }
+
+  .Navbar-section figure img {
+    max-width: 120px;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  .nav-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+
+  .nav-item-1,
+  .nav-item-2,
+  .nav-item-3 {
+    display: none;
+  }
+
+  .nav-item-4 {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+}
+
+  .banner-section {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .banner-section img {
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+    order: -1; /* image goes top */
+  }
+
+  .banner-details {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .banner-details h1 {
+    font-size: 42px;
+    margin-bottom: 1rem;
+  }
+
+  .banner-details p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
