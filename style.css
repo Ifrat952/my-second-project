@@ -139,8 +139,8 @@
     width: 560px;
 }
 .lover-pic-2{
-    width: 286px;
-    height: 286px;;
+    width: 290px;
+    height: 290px;
     position: absolute;
     left: 550px;
     margin-top: -100px;
@@ -201,7 +201,7 @@
 
 .picture-1{
     width: 365px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4)) , url('/B12A02-Responsive-Flowers/assets/deal-bloom.png') ;
+    background: linear-gradient(rgba(0, 0, 0, 0.4)) , url('./B12A02-Responsive-Flowers/assets/deal-bloom.png') ;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -227,7 +227,7 @@
 
 .picture-2{
     width: 365px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4)) , url('/B12A02-Responsive-Flowers/assets/deal-ana.png') ;
+    background: linear-gradient(rgba(0, 0, 0, 0.4)) , url('./B12A02-Responsive-Flowers/assets/deal-ana.png') ;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -251,7 +251,7 @@
 
 .picture-3{
     width: 755px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4)) , url('/B12A02-Responsive-Flowers/assets/deal-zabo.png') ;
+    background: linear-gradient(rgba(0, 0, 0, 0.4)) , url('./B12A02-Responsive-Flowers/assets/deal-zabo.png') ;
     height: 425px;
     display: flex;
     flex-direction: column;
@@ -276,7 +276,7 @@
 /* Join bunch */
 
 .join{
-    background-image: url('/B12A02-Responsive-Flowers/assets/news-letter-bg.png');
+    background-image: url('./B12A02-Responsive-Flowers/assets/news-letter-bg.png');
     max-width: 100%;
     height: 530px;
     display: flex;
@@ -284,8 +284,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 120px;
-    
-    
 }
 
 .join-title{
@@ -370,6 +368,8 @@
 
 
 
+
+
 /* Let's start responsive for mobile device */
 @media screen and (max-width: 576px) {
   .Navbar-section {
@@ -441,4 +441,3 @@
     line-height: 1.6;
     margin-bottom: 0;
   }
-}
